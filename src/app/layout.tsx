@@ -4,8 +4,8 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 
 export const metadata = {
-  title: 'My Stunning Gradient Website',
-  description: 'A beautifully designed Next.js website with subtle gradients',
+  title: 'My Awesome Website',
+  description: 'A beautifully designed Next.js website with Tailwind CSS',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gradient-to-r from-indigo-500/40 via-purple-500/40 to-pink-500/40 text-white">
+      <body className="min-h-screen bg-gray-100 text-gray-900">
         <Navbar />
         <main className="container mx-auto p-6">{children}</main>
       </body>
